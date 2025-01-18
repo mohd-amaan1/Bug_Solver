@@ -2,7 +2,8 @@ import React from 'react'
 
 interface User {
     id: number,
-    name: string
+    name: string,
+    email: string
 }
 
 const page = async () => {
@@ -12,8 +13,20 @@ const page = async () => {
     const users: User[] = await response.json();
   return (
       <div>Users: 
+          <table className='table table-bordered'>
+              <thead>
+                  <tr>
+                      <th>Name</th>
+                      <th>Email</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  {users.map(user => <tr key={user.id}><td>{user.name}</td>
+                      <td>{user.email}</td></tr>)}
+              </tbody>
+          </table>
           <ul>
-              {users.map(user => <li key={user.id}>{user.name}</li>)}
+              
           </ul>
     </div>
   )
