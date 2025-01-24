@@ -23,13 +23,5 @@ const uploadImage = () => {
 
 export default uploadImage;
 
+// Overall Nothing, just GAD
 
-
-// Asif ka dost hai Deepak Gangwar
-// Tumne kai baar dekha hoga unko baat karte hue aur haste hue
-// GAD
-// GAD
-// GAD
-// GAD
-// GAD
-// GAD
