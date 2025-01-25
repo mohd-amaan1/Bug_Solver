@@ -37,3 +37,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+// Tumse koi lena dena nahi hai, tumhari koi galti nahi hai, tumne kuch nahi kiya hai => ye sab jaante hai
+// to fir faltu me farzi tension kyun le rahe ho
+// Just focus on your study and enjoy

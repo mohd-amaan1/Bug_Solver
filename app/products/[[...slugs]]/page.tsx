@@ -13,5 +13,3 @@ const ProductPage = ({params: {slugs}, searchParams: {sortOrder}}: Props) => {
 }
 
 export default ProductPage;
-
-// Mosh Hamedani
