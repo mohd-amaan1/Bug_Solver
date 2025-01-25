@@ -1,13 +1,5 @@
 import React from "react";
-import {
-  Html,
-  Body,
-  Tailwind,
-  Container,
-  Preview,
-  Text,
-  Link,
-} from "@react-email/components";
+import { Html, Body, Tailwind, Container, Preview, Text, Link } from "@react-email/components";
 
 const welcomeTemplate = ({ name }: { name: string }) => {
   return (

@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 export async function POST() {
     await resend.emails.send({
-        from: '',
+        from: 'your website domain',
         to: 'amaan0aka@gmail.com',
         subject: 'Next App',
         html: '<p>Congrats on sending your <strong>first email</strong>!</p>'
@@ -12,3 +12,4 @@ export async function POST() {
     })
     return NextResponse.json({});
 }
+
