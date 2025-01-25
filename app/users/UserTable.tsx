@@ -7,6 +7,16 @@ interface User {
     name: string,
     email: string
 }
+// In profile
+// referral
+// GSC
+// Resume
+// certificate
+// Nextjs
+// scholarship
+// Saara faida humse
+// Aur hume kya mila: GAD
+// Relatioship: Not profitable, No sense, Only loss of mind and focus
 
 interface Props {
     sortOrder: string;
@@ -35,3 +45,7 @@ const UserTable = async ({sortOrder}: Props) => {
 }
 
 export default UserTable
+
+
+// Aapse koi lena dena nahi hai
+// Lekin phir bhi aap door raho, bcoz of GAD
